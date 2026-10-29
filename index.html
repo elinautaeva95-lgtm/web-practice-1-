@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Элина Утяева — Стратегический дизайн</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- ===== ШАПКА ===== -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#about" class="logo">elina.utyaeva.com</a>
+
+            <nav class="nav" id="nav">
+                <a href="#about" class="nav-link">обо мне</a>
+                <a href="#experience" class="nav-link">опыт</a>
+                <a href="#skills" class="nav-link">навыки</a>
+                <a href="#projects" class="nav-link">проекты</a>
+                <a href="#contacts" class="nav-link">контакты</a>
+            </nav>
+
+            <div class="header-actions">
+                <div class="socials">
+                    <a href="https://www.behance.net/elinautyaeva" target="_blank" rel="noopener" class="circle-btn" aria-label="Behance">
+                        <span class="be-text">Be</span>
+                    </a>
+                </div>
+                <button id="themeBtn" class="circle-btn" aria-label="Переключить тему">
+                    <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                </button>
+                <button id="burgerBtn" class="icon-btn burger" aria-label="Меню">
+                    <span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===== 1. О СЕБЕ ===== -->
+        <section id="about" class="hero-section">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-text">
+                        
+                        <h1 class="giant-title">Элина Утяева</h1>
+                        <div class="badge">Графический и веб-дизайнер</div>
+                        <p class="hero-desc">
+                            Мне 23 года, я из Санкт-Петербурга. Делаю упор на юзабилити — чтобы пользователю было понятно с первых секунд. Помогаю бизнесу говорить с аудиторией на понятном языке.
+                        </p>
+                    </div>
+                    <div class="hero-photo-container">
+                        <!-- ВАШЕ ФОТО (замените photo.jpg на реальное имя файла) -->
+                        <img src="img/фото.png" alt="Элина Утяева" class="hero-img" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder');" />
+                        <div class="photo-fallback">ФОТО<br>PHOTO.JPG</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ЧЕМ ЗАНИМАЮСЬ ===== -->
+        <div class="services-strip">
+            <div class="container">
+                <span class="label-small">Что я делаю:</span>
+                <div class="services-list">
+                    <span>Айдентика</span>
+                    <span>Полиграфия</span>
+                    <span>Веб-дизайн</span>
+                    <span>Презентации</span>
+                    <span>Тильда</span>
+                    <span>Юзабилити</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== 2. ОПЫТ ===== -->
+        <section id="experience" class="section section-white experience-section">
+            <div class="container">
+                <h2 class="section-title">Опыт.</h2>
+            </div>
+            <div class="timeline full-width">
+                <div class="container">
+                    <div class="timeline-row">
+                        <div class="timeline-date">2021 — наст. время</div>
+                        <div class="timeline-content">
+                            <h3>СПбГУПТД</h3>
+                            <p>Университет промышленных технологий и дизайна. «Прикладная информатика в дизайне».</p>
+                        </div>
+                    </div>
+                    <div class="timeline-row">
+                        <div class="timeline-date">2024 — наст. время</div>
+                        <div class="timeline-content">
+                            <h3>Фрилансер</h3>
+                            <p>Самозанятость. Разработка презентаций для бизнеса, айдентика, логотипы.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-row">
+                        <div class="timeline-date">2023 — 2024</div>
+                        <div class="timeline-content">
+                            <h3>Дизайнер · ПИЛКИ</h3>
+                            <p>Ребрендинг, брендбук, полиграфия. Поддержка дизайна соцсетей, сайта и приложения. Работа с 70+ студиями.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-row">
+                        <div class="timeline-date">2025 — 2026</div>
+                        <div class="timeline-content">
+                            <h3>Курсы Tilda</h3>
+                            <p>Тильда Старт · Тильда Про.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 3. НАВЫКИ ===== -->
+        <section id="skills" class="section section-white" style="padding-top: 0;">
+            <div class="container">
+                <h2 class="section-title">Навыки.</h2>
+                <div class="tags">
+                    <span class="tag">Illustrator</span>
+                    <span class="tag">Figma</span>
+                    <span class="tag">Photoshop</span>
+                    <span class="tag">InDesign</span>
+                    <span class="tag">After Effects</span>
+                    <span class="tag">Tilda</span>
+                    <span class="tag">Nanobanana</span>
+                    <span class="tag">Типографика</span>
+                    <span class="tag">Предпечатная подготовка</span>
+                    <span class="tag">Юзабилити</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 4. ПРОЕКТЫ ===== -->
+        <section id="projects" class="section section-white" style="padding-top: 0;">
+            <div class="container">
+                <div class="projects-header">
+                    <h2 class="section-title">Проекты.</h2>
+                </div>
+
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">Все</button>
+                    <button class="filter-btn" data-filter="sites">Сайты</button>
+                    <button class="filter-btn" data-filter="presentations">Презентации</button>
+                </div>
+
+                <div class="projects-vertical-list">
+                    <!-- ПРОЕКТ 1 -->
+                    <article class="project-vertical-card" data-category="sites">
+                        <div class="project-carousel-wrapper">
+                            <div class="project-carousel-track-container">
+                                <div class="project-carousel-track">
+                                    <div class="project-slide"><img src="img/muza-1.jpg" alt="МУЗА 1" class="project-img"></div>
+                                    <div class="project-slide"><img src="img/muza-2.jpg" alt="МУЗА 2" class="project-img"></div>
+                                    <div class="project-slide"><img src="img/muza-3.jpg" alt="МУЗА 3" class="project-img"></div>
+                                </div>
+                            </div>
+                            <button class="carousel-btn prev" aria-label="Назад">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 18l-6-6 6-6"/></svg>
+                            </button>
+                            <button class="carousel-btn next" aria-label="Вперед">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg>
+                            </button>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-cat">Сайт · Учебный</span>
+                            <h3>Промо-сайт веб-приложения «МУЗА»</h3>
+                            <p>Учебный проект: промо-страница для веб-приложения. Дизайн, прототип, сборка.</p>
+                        </div>
+                    </article>
+
+                    <!-- ПРОЕКТ 2 -->
+                    <article class="project-vertical-card" data-category="sites">
+                        <div class="project-carousel-wrapper">
+                            <div class="project-carousel-track-container">
+                                <div class="project-carousel-track">
+                                    <div class="project-slide"><img src="img/spb-1.jpg" alt="СПБ 1" class="project-img"></div>
+                                    <div class="project-slide"><img src="img/spb-2.jpg" alt="СПБ 2" class="project-img"></div>
+                                    <div class="project-slide"><img src="img/spb-3.jpg" alt="СПБ 3" class="project-img"></div>
+                                </div>
+                            </div>
+                            <button class="carousel-btn prev" aria-label="Назад">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 18l-6-6 6-6"/></svg>
+                            </button>
+                            <button class="carousel-btn next" aria-label="Вперед">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg>
+                            </button>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-cat">Сайт · Учебный</span>
+                            <h3>Сайт экскурсий по СПб и ЛО</h3>
+                            <p>Учебный проект: сайт экскурсий по Санкт-Петербургу и Ленинградской области.</p>
+                        </div>
+                    </article>
+
+                    <!-- ПРОЕКТ 3 -->
+                    <article class="project-vertical-card" data-category="presentations">
+                        <div class="project-carousel-wrapper">
+                            <div class="project-carousel-track-container">
+                                <div class="project-carousel-track">
+                                    <div class="project-slide"><img src="img/factory-1.jpg" alt="ЗАВОД 1" class="project-img"></div>
+                                    <div class="project-slide"><img src="img/factory-2.jpg" alt="ЗАВОД 2" class="project-img"></div>
+                                    <div class="project-slide"><img src="img/factory-3.jpg" alt="ЗАВОД 3" class="project-img"></div>
+                                </div>
+                            </div>
+                            <button class="carousel-btn prev" aria-label="Назад">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 18l-6-6 6-6"/></svg>
+                            </button>
+                            <button class="carousel-btn next" aria-label="Вперед">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg>
+                            </button>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-cat">Презентация · Реальный</span>
+                            <h3>Продажа завода по катодной меди</h3>
+                            <p>Реальный проект: продающая презентация действующего завода по катодной меди.</p>
+                        </div>
+                    </article>
+
+                    <!-- ПРОЕКТ 4 -->
+                    <article class="project-vertical-card" data-category="presentations">
+                        <div class="project-carousel-wrapper">
+                            <div class="project-carousel-track-container">
+                                <div class="project-carousel-track">
+                                    <div class="project-slide"><img src="img/vlad-1.jpg" alt="ВЛАД 1" class="project-img"></div>
+                                    <div class="project-slide"><img src="img/vlad-2.jpg" alt="ВЛАД 2" class="project-img"></div>
+                                    <div class="project-slide"><img src="img/vlad-3.jpg" alt="ВЛАД 3" class="project-img"></div>
+                                </div>
+                            </div>
+                            <button class="carousel-btn prev" aria-label="Назад">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 18l-6-6 6-6"/></svg>
+                            </button>
+                            <button class="carousel-btn next" aria-label="Вперед">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg>
+                            </button>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-cat">Презентация · Учебный</span>
+                            <h3>Демография Владивостока</h3>
+                            <p>Учебный проект: аналитическая презентация по демографической ситуации.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 5. КОНТАКТЫ ===== -->
+        <section id="contacts" class="hero-section contact-section">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-text">
+                        
+                        <h2 class="giant-title">Связаться.</h2>
+                        <p class="hero-desc">Открыта к интересным проектам и сотрудничеству.</p>
+                    </div>
+                    <div class="hero-action">
+                        <a href="#" id="emailBtn" class="btn-pill">elina.utyaeva@mail.ru</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== ПОДВАЛ ===== -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span>Элина Утяева · 2026</span>
+            <span>Сделано с помощью DeepSeek</span>
+        </div>
+        <div class="container footer-js">
+            JS: Переключение темы (localStorage), фильтрация и карусель проектов, мобильное меню, автоматические неразрывные пробелы.
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
